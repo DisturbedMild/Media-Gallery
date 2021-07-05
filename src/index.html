@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Gallery</title>
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <header class="heading">
+        <div class="container">
+          <h1 class="header d-flex justify-content-center">Movie Gallery</h1>
+        </div>
+      </header>
+      <section class="media">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="media-select">
+                
+              </div>
+            </div>
+            <div class="col-12 col-xl-8">
+              <div class="media-gallery__wrapper"></div>
+            </div>
+            <div class="col-12 col-xl-4">
+              <div class="favourite-list__wrapper">
+                <h2 class="media-favourite__list-title">Favourite List</h2>
+                <div class="media-favourite__list">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Page wrapper End-->
+
+    <!-- The Modal -->
+    <div class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="row">
+          <div class="col-12 col-xl-3">
+            <div class="modal-content__inner">
+              <div class="modal-content__img"><img src="" alt="#" /></div>
+              <div class="modal-content__favourite">
+                <button class="modal-content__favourite-btn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg> Set as favorite</button
+                ><span class="modal-content__year"></span>
+              </div>
+              <div class="modal-content__genres"></div>
+            </div>
+          </div>
+          <div class="col-12 col-xl-9">
+            <div class="modal-about__wrapper">
+              <div class="modal-about__title"></div>
+              <p class="modal-about__text"></p>
+              <div class="modal-about__director"></div>
+              <div class="modal-about__starring"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="./bundle.js" defer></script>
+  </body>
+</html>
